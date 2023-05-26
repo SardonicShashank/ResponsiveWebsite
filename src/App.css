@@ -1,0 +1,23 @@
+#frame304 {
+  position: absolute;
+  width: 100%;
+  height: 75.97px;
+  left: 0px;
+  top: 73px;
+  background: #FFFFFF;
+}
+
+.ui {
+  position: absolute;
+  width: 138px;
+  height: 21px;
+  left: 187px;
+  top: 30px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}

@@ -1,0 +1,213 @@
+#header {
+    position: absolute;
+    width: 1360px;
+    height: 73.03px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+#navbar {
+    position: absolute;
+    height: 73.03px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+#logo {
+    position: absolute;
+    width: 160px;
+    height: 63px;
+    left: 74px;
+    top: 6px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+    position: absolute;
+    width: 519px;
+    height: 24px;
+    left: 766px;
+    top: 25px;
+}
+
+#text1 {
+    width: 140px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.25);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#text2 {
+    width: 156px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.25);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 4px;
+    width: 167px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#account {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#name {
+    width: 111px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: #800080;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#vector {
+    position: absolute;
+    left: 501px;
+    top: 35.79%;
+    bottom: 33.33%;
+}
+
+#btn {
+    display: none;
+}
+
+#ui {
+    position: absolute;
+    width: 138px;
+    height: 21px;
+    left: 187px;
+    top: 103px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+@media screen and (max-width: 428px) {
+    
+    #header {
+        position: relative;
+        width: 428px;
+        height: 1260px;
+        background: #FFFFFF;
+    }
+    
+    #navbar {
+        position: absolute;
+        width: 428px;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+    
+    #nav {
+        display: none;
+    }
+    
+    #logo {
+        position: absolute;
+        width: 160px;
+        height: 45px;
+        left: 3px;
+        top: 62px;
+        mix-blend-mode: normal;
+    }
+    
+    #btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 25px;
+        gap: 10px;
+        position: absolute;
+        width: 165px;
+        height: 48px;
+        left: 228px;
+        top: 59px;
+        background: #800080;
+        border-radius: 10px;
+    }
+    
+    #profile {
+        width: 99px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    #vec {
+        position: absolute;
+        left: 85%;
+        right: 25%;
+        top: 45%;
+        bottom: 33.33%;
+    }
+
+    #ui {
+        position: absolute;
+        width: 138px;
+        height: 21px;
+        left: 35px;
+        top: 158px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;     
+        color: #000000;
+    }
+}

@@ -1,0 +1,99 @@
+#referalcode {
+    position: absolute;
+    width: 358px;
+    height: 105px;
+    left: 766px;
+    top: 179px;
+}
+
+#yourcode {
+    position: absolute;
+    width: 228px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+}
+
+#frame281 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 358px;
+    height: 60px;
+    left: 0px;
+    top: 45px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-image: linear-gradient(to left, #800080 0%, #FF864C) 1;
+}
+
+#code {
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    left: 64px;
+    top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: #800080;
+}
+
+@media screen and (max-width: 428px) {
+    #referalcode {
+        position: absolute;
+        width: 358px;
+        height: 105px;
+        left: 34px;
+        top: 458px;
+    }
+
+    #yourcode {
+        position: absolute;
+        width: 228px;
+        height: 36px;
+        left: 10px;
+        top: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #800080;
+    }
+
+    #frame281 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 358px;
+        height: 60px;
+        left: 10px;
+        top: 45px;
+        border-radius: 90px;
+        border: 2px solid;
+        border-image: linear-gradient(to left, #800080 0%, #FF864C) 1;
+    }
+
+    #code {
+        position: absolute;
+        width: 230px;
+        height: 30px;
+        left: 64px;
+        top: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5em;
+        color: #000000;
+    }
+}
